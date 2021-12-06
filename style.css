@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=B612+Mono');
+
+html, body {
+    font-family: "B612 Mono", monospace;
+    text-align: center;
+}
+
+h2 {
+    font-size: 159px;
+}
+
+#welcome {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%)
+}
+
+#generator {
+    margin-top: 30px;
+}
+
+#wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+
+.box {
+    border: solid 2px rgb(128, 158, 240);
+    background: rgb(128, 180, 240);
+    color: white;
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+    vertical-align: text-top;
+}
+
+
+.show {
+    display:none;
+}
+
+/* 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');*{margin:0;padding:0}
+body{font-family:'Montserrat',sans-serif;text-align:center;height:100%;width:100%;background:#000;overflow-x:hidden}
+#main{height:100vh;width:100%;overflow-x:hidden;background:#000}
+h1,h2{background:linear-gradient(to left,#8e2de2,#4a00e0);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+h1{padding:40px 0 0 0}
+h2{font-size:15em}
+#wrapper{height:150px;width:100%;display:flex;justify-content:center;align-items:center;color:#fff}
+.box{height:100%;width:20%;border-radius:10px;border:2.5px solid #8e2de2;margin:10px;transition:.5s}
+.box:hover{margin-top:-20px;box-shadow:-4px 15px 33px 9px rgba(255,255,255,0.09)}
+p{background:linear-gradient(to left,#8e2de2,#4a00e0);font-size:1.3em;padding:15px 0}
+h3{padding:25px;font-size:1.4em}
+.generator{display:none}
+#front{display:flex;justify-content:center;align-items:center;background:#000;height:100vh;font-size:1.5em;padding:0 10px;overflow:hidden}
+#fixed{position:fixed;background:linear-gradient(to left,#8e2de2,#4a00e0);padding:7px;width:200px;display:flex;justify-content:center;align-items:center;transform:rotate(45deg);margin-left:90%;margin-top:10px}
+#fixed img{height:38px}
+@media(max-width:700px){#wrapper{display:block}
+h1{padding:20px 0 0 0}
+#fixed{display:none}
+.box{height:150px;width:90%;margin:20px;margin-left:4%}
+}
+
+*/
